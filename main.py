@@ -15,11 +15,6 @@ import re
 import os.path
 import time
 
-bot = Client(
-    "ytdl",
-    api_id="9077578",
-    api_hash='2b1b24357234f68d6e383fffab87b3b7',
-    bot_token="5234006821:AAGi2NJC4ZCjm82Q1kco84r-v2blDCXdYRE")
 
 
 async def account_login(bot: Client, m: Message):
