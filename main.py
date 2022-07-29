@@ -20,5 +20,5 @@ import time
 async def account_login(bot: Client, m: Message):
     
     link = input("link : ")
-    os.system(f"yt-dlp -o "tesst.mp4" '{link}'")
+    os.system(f"yt-dlp -o 'tesst.mp4' '{link}'")
 bot.run()
